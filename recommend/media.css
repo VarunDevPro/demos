@@ -1,0 +1,10 @@
+@media screen and (min-width: 700px) {
+    :root{
+        --cardWidth: 50%;
+    }
+}
+@media screen and (min-width: 1055px) {
+    :root{
+        --cardWidth: 33%;
+    }
+}

@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+	font-weight: 700;
+}
+
+body {
+	color: #555;
+    font-family: 'Raleway','Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+nav {
+	height: 5rem;
+	position: relative;
+	-webkit-box-shadow: 0 -.125rem 1rem rgba(0,0,0,0.5);
+	box-shadow: 0 -.125rem 1rem rgba(0,0,0,0.5);
+	margin-bottom: 2rem;
+}
+
+
+.hero__text{
+    top: 50%;
+	width: 100%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+	font-weight: 500;
+	color: #2980b9;
+	margin: .5rem 0;
+	display: inline-block;
+	transition: font-size 0.3s ease-out; 
+}
+
+a:focus,
+a:active,
+a:hover {
+	font-size: 1.2rem;
+	text-decoration: underline;
+	outline: none;
+}
